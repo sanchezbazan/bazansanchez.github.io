@@ -1,30 +1,37 @@
 /* Styles for index.html */
 /* Body */
+
 body {
 	background-color: #f2f2f2; /* Color */
 	font-family: Arial, sans-serif; /* Fonts */
-	font-size: 16px; /* Fonts */
+	font-size: 16px; /* Requirement-2.1*/
 	margin: 0; /* Spacing */
   }
-  
+
+p { /* Requirement-2.A */
+color: green;
+font-size: 1.2em;
+}
 /* Header and Footer */
 header, footer {
-background-color: #333; /* Background */
-color: #fff; /* Color */
+background-color: #333; /* Requirement-2.4*/
+color: #fff; /* Requirement-2.3*/
 padding: 10px; /* Spacing */
-text-align: center; /* Text */
+text-align: center; /* Requirement-2.2*/
+z-index: 10; /* Requirement-2.17*/
 }
 
 /* Navigation */
 nav {
 background-color: #4CAF50; /* Background */
-overflow: hidden; /* Overflow */
+overflow: hidden; /* Requirement-2.14*/
+float: left; /* Requirement-2.11*/
 }
 
 nav a {
 color: #fff; /* Color */
 display: block;
-float: left; /* Relative units */
+float: left; /* Requirement-2.10*/ 
 font-size: 16px; /* Fonts */
 padding: 14px 16px; /* Spacing */
 text-decoration: none; /* Text */
@@ -55,7 +62,7 @@ padding: 0; /* Spacing */
 }
 
 img {
-display: block;
+display: block; /* Requirement-2.12*/
 margin: 20px auto; /* Spacing */
 max-width: 100%; /* Sizing */
 }
@@ -68,12 +75,12 @@ width: 100%; /* Sizing */
 }
 
 th, td {
-border: 1px solid #ddd; /* Borders */
+border: 1px solid #ddd; /* Requirement-2.5*/
 padding: 8px; /* Spacing */
 text-align: center; /* Text */
 }
 
-tr:nth-child(even) {
+tr:nth-child(even) { /* Requirement-2.B */
 background-color: #f2f2f2; /* Background */
 }
 
@@ -82,26 +89,26 @@ background-color: #f2f2f2; /* Background */
 }
 
 /* Details and Summary */
-details {
-margin: 20px; /* Spacing */
+details {  /* Requirement-2.G */
+margin: 20px; /* Requirement-2.6*/
 }
 
-summary {
+summary {  /* Requirement-2.H */
 font-weight: bold; /* Fonts */
 }
 
 /* Additional styles for all HTML files */
 /* Section */
 section {
-max-width: 800px; /* Sizing */
+max-width: 800px; /* Requirement-2.7*/
 margin: 0 auto; /* Spacing */
 padding: 20px; /* Spacing */
 }
 
 /* Images with IDs */
-#Messi, #Ronaldihno, #Ochoa {
-position: absolute; /* Position */
-top: 80%; /* Sizing */
+#Messi, #Ronaldihno, #Ochoa { /* Requirement-2.D */
+position: absolute; /* Requirement-2.9*/ 
+top: 90%; /* Sizing */
 left: 50%; /* Sizing */
 transform: translate(-50%, -50%); /* Position */
 }
@@ -128,13 +135,13 @@ padding: 20px; /* Spacing */
 display: flex;
 flex-wrap: wrap;
 gap: 20px; /* Spacing */
-justify-content: center; /* Position */
+justify-content: center; /* Requirement-2.15*/
 align-items: center; /* Position */
 flex: 1;
 
 }
 
-.item {
+.item { /* Requirement-2.C */
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -151,7 +158,7 @@ text-decoration: none;
 color: #333;
 }
 
-.item a:hover {
+.item a:hover { /* Requirement-2.E */
 color: #4CAF50;
 }
 
@@ -167,7 +174,7 @@ font-weight: bold;
 }
 
 .item ul {
-list-style: none;
+list-style: none; /* Requirement-2.8*/
 margin: 10px 0;
 padding: 0;
 }
@@ -206,4 +213,23 @@ font-weight: bold;
 
 nav a:hover {
 text-decoration: underline;
+}
+
+.clear {
+	clear: both; /* Requirement-2.13*/
+}
+.hidden {
+	visibility: hidden;
+  }
+  
+  .visible {
+	visibility: visible; /* Requirement-2.16*/
+  }
+  
+  .invisible {
+	visibility: hidden;
+	display: none;
+  }
+.container p {  /* Requirement-2.F */
+color: blue;
 }
