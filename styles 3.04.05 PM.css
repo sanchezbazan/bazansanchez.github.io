@@ -1,0 +1,209 @@
+/* Styles for index.html */
+/* Body */
+body {
+	background-color: #f2f2f2; /* Color */
+	font-family: Arial, sans-serif; /* Fonts */
+	font-size: 16px; /* Fonts */
+	margin: 0; /* Spacing */
+  }
+  
+/* Header and Footer */
+header, footer {
+background-color: #333; /* Background */
+color: #fff; /* Color */
+padding: 10px; /* Spacing */
+text-align: center; /* Text */
+}
+
+/* Navigation */
+nav {
+background-color: #4CAF50; /* Background */
+overflow: hidden; /* Overflow */
+}
+
+nav a {
+color: #fff; /* Color */
+display: block;
+float: left; /* Relative units */
+font-size: 16px; /* Fonts */
+padding: 14px 16px; /* Spacing */
+text-decoration: none; /* Text */
+}
+
+nav a:hover {
+background-color: #ddd; /* Background */
+color: black; /* Color */
+}
+
+/* Headings */
+h1, h2 {
+color: #333; /* Color */
+text-align: center; /* Text */
+}
+
+/* Paragraphs */
+p {
+line-height: 1.5; /* Text */
+margin: 20px; /* Spacing */
+text-align: justify; /* Text */
+}
+
+/* Figures and Images */
+figure {
+margin: 0; /* Spacing */
+padding: 0; /* Spacing */
+}
+
+img {
+display: block;
+margin: 20px auto; /* Spacing */
+max-width: 100%; /* Sizing */
+}
+
+/* Tables */
+table {
+border-collapse: collapse; /* Borders */
+margin: 20px auto; /* Spacing */
+width: 100%; /* Sizing */
+}
+
+th, td {
+border: 1px solid #ddd; /* Borders */
+padding: 8px; /* Spacing */
+text-align: center; /* Text */
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2; /* Background */
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2; /* Background */
+}
+
+/* Details and Summary */
+details {
+margin: 20px; /* Spacing */
+}
+
+summary {
+font-weight: bold; /* Fonts */
+}
+
+/* Additional styles for all HTML files */
+/* Section */
+section {
+max-width: 800px; /* Sizing */
+margin: 0 auto; /* Spacing */
+padding: 20px; /* Spacing */
+}
+
+/* Images with IDs */
+#Messi, #Ronaldihno, #Ochoa {
+position: absolute; /* Position */
+top: 80%; /* Sizing */
+left: 50%; /* Sizing */
+transform: translate(-50%, -50%); /* Position */
+}
+
+/* Highlighted Text */
+.highlight {
+background-color: yellow; /* Background */
+font-weight: bold; /* Fonts */
+}
+
+/* Body */
+body {
+margin: 0; /* Spacing */
+display: flex;
+flex-direction: column;
+min-height: 100vh; /* Sizing */
+}
+
+/* Styles for players.html */
+/* Container */
+.container {
+background-color: #fff; /* Background */
+padding: 20px; /* Spacing */
+display: flex;
+flex-wrap: wrap;
+gap: 20px; /* Spacing */
+justify-content: center; /* Position */
+align-items: center; /* Position */
+flex: 1;
+
+}
+
+.item {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color: #fff;
+border: 1px solid #ddd;
+padding: 20px;
+max-width: 300px;
+flex: 1;
+}
+
+.item a {
+text-decoration: none;
+color: #333;
+}
+
+.item a:hover {
+color: #4CAF50;
+}
+
+.item img {
+border: 1px solid #ddd;
+padding: 5px;
+max-width: 100%;
+}
+
+.item h1 {
+margin: 10px 0;
+font-weight: bold;
+}
+
+.item ul {
+list-style: none;
+margin: 10px 0;
+padding: 0;
+}
+
+.item li {
+margin-bottom: 5px;
+}
+
+.item:hover {
+background-color: #f2f2f2;
+}
+
+/* Styles for header and nav */
+
+h1 {
+text-align: center;
+margin: 20px;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+nav {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #4CAF50;
+color: #fff;
+padding: 10px
+}
+
+nav a {
+color: #fff;
+margin: 0 10px;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
